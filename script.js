@@ -31,3 +31,39 @@ firstBtn3.addEventListener('click', function(){
     content3.style.display = 'block';
     
 })
+// fortfolio section
+
+
+//this is for first btn
+const Btn = document.getElementById('portBnt1');
+Btn.addEventListener('click', function(){
+    const content = document.getElementById('portfolio1');
+    content.style.display = 'block';
+    const content1 = document.getElementById('portfolio2');
+    content1.style.display = 'none';
+    const content3 = document.getElementById('portfolio3');
+    content3.style.display = 'none';
+})
+
+//this is for second btn
+const Btn1 = document.getElementById('portBnt2');
+Btn1.addEventListener('click', function(){
+    const content = document.getElementById('portfolio2');
+    content.style.display = 'block';
+    const content1 = document.getElementById('portfolio1');
+    content1.style.display = 'none';
+    const content3 = document.getElementById('portfolio3');
+    content3.style.display = 'none';
+    
+})
+//this is for Third btn
+const Btn3 = document.getElementById('portBnt3');
+Btn3.addEventListener('click', function(){
+    const content = document.getElementById('portfolio2');
+    content.style.display = 'none';
+    const content1 = document.getElementById('portfolio1');
+    content1.style.display = 'none';
+    const content3 = document.getElementById('portfolio3');
+    content3.style.display = 'block';
+    
+})

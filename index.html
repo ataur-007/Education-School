@@ -31,7 +31,7 @@
             <a class="nav-link text-white" href="#Services">Services</a>
           </li>
           <li class="nav-item">
-            <a id="Team" class="nav-link text-white" href="#">Team</a>
+            <a id="Team" class="nav-link text-white" href="#Portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
             <a id="Contact" class="nav-link text-white" href="#">Contact Us</a>
@@ -60,10 +60,10 @@
 <!-- About Us -->
 
 
-  <section class="container mb-5 pt-3 d-flex">
+  <section id="aboutUs" class="container mb-5 pt-3 d-flex">
     <div class="row row-cols-md-2">
       <div class="col-md-5">
-        <img id="headingImg" src="images/girl-coding-with-laptop-illustration_418302-2384.avif" alt="">
+        <img id="headingImg" class="aboutUsImg" src="images/about_us-removebg-preview.png" alt="">
       </div>
     </div>
       <div class="col-md-5 heading">
@@ -74,7 +74,6 @@
         <button class="btn btn-primary">Contact Us</button>
         <button class="btn btn-warning">See More</button>
       </div>
-
   </section>
 
 
@@ -83,7 +82,7 @@
   <section id="Services" class="services">
     <h1 class="text-center serviceHeading">Our <span class="text-secondary">Services</span></h1>
     <!--button -->
-    <div class="btnStyle">
+    <div class="d-flex align-items-center justify-content-center">
       <button id="first">All Course</button>
       <button id="second">Web & Software</button>
       <button id="third">Digital Marketing</button>
@@ -237,9 +236,81 @@
         <div class="modal-footer">
           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
         </div>
+      </div>
+    </div>
+  </div>
 
 
+        <section id="portfolio" class="container">
+          <h1 class="text-info text-center">Our <span class="text-secondary">Portfolio</span></h1>
+          <p class="ps-5 pe-5 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque neque vitae sint! Harum tenetur dicta ipsam dolorum laudantium minima impedit rerum enim voluptatem fugiat, itaque quos in odio laborum minus veniam id doloribus tempore? Reprehenderit exercitationem autem nesciunt dolorum omnis eius illo totam, impedit reiciendis optio suscipit, corrupti deleniti molestias?</p>
 
+          <div class="d-flex align-items-center justify-content-center">
+            <button id="portBnt1">Web Design</button>
+            <button id="portBnt2">Full stack Web</button>
+            <button id="portBnt3">  MERN stack</button>
+          </div>
+
+          <!-- first one -->
+          <div id="portfolio1">
+            <div class="row row-cols-md-3 mt-5 mb-5">
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/1.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/1.jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/1.jpg" alt="">
+              </div>
+            </div>
+            <div class="row row-cols-md-3 mt-5 mb-5">
+              <div class="col-md-3.5 ps-3">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/3.jpg" alt="">
+              </div>
+              <div class="col-md-3.5">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/3.jpg" alt="">
+              </div>
+              <div class="col-md-3.5">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+
+            <!-- second section -->
+
+          <div id="portfolio2">
+            <div class="row row-cols-md-3 mt-5 mb-5">
+              <div class="col-md-4 ps-3">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/2 (3).jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/2 (3).jpg" alt="">
+              </div>
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/2 (3).jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div id="portfolio3">
+            <div class="row row-cols-md-3 mt-5 mb-5">
+              <div class="col-md-4 ps-3">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/4.png" alt="">
+              </div>
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/4.png" alt="">
+              </div>
+              <div class="col-md-4">
+                <img style="width: 400px; margin-left: 20px;" src="images/portfolio img/4.png" alt="">
+              </div>
+            </div>
+          </div>
+
+
+        </section>
+
+
+        
 
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

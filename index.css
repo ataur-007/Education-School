@@ -33,8 +33,10 @@ h1{
     display: block;
     /* display: none; */
 }
-
-#first,#second,#third {
+#portfolio2,#portfolio3{
+    display: none;
+}
+#first,#second,#third,#portBnt1,#portBnt2,#portBnt3 {
     background-color: #9FB9E5;
     border: none;
     border: none;
@@ -47,6 +49,25 @@ h1{
     margin: 0 20px 0;
     color: rgb(0, 0, 0);
 }
+
+#first,#portBnt1:hover{
+    background-color: rgb(11, 211, 218);
+    transition-duration: 1s;
+    color: white;
+}
+#second,#portBnt2:hover{
+    background-color: rgb(11, 211, 218);
+    transition-duration: 1s;
+    color: white;
+}
+#third,#portBnt3:hover{
+    background-color: rgb(11, 211, 218);
+    transition-duration: 1s;
+    color: white;
+}
+
+
+
 
 .btnStyle {
     /* margin: 20px 0 0 231px; */
@@ -67,4 +88,22 @@ margin-bottom: -100px;
 .serviceHeading{
     padding-top: 50px;
     padding-bottom: 20px;
+}
+.aboutUsImg {
+    padding-right: 69px;
+}
+
+element.style {
+    margin-top: 39px;
+}
+
+/* Portfolio section */
+
+#portfolio {
+    margin-top: 165px;
+}
+.portfolio {
+    margin-left: 156px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
