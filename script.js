@@ -67,3 +67,18 @@ Btn3.addEventListener('click', function(){
     content3.style.display = 'block';
     
 })
+
+
+//this is for website menu
+
+
+document.getElementById('menuAnchor1').addEventListener('click', function(){
+    const content = document.getElementById('Services');
+    content.style.display = 'block';
+})
+
+
+document.getElementById('menuAnchor2').addEventListener('click', function(){
+    const porfolio = document.getElementById('portfolio');
+    porfolio.style.display = 'block';
+})
