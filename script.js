@@ -82,3 +82,4 @@ document.getElementById('menuAnchor2').addEventListener('click', function(){
     const porfolio = document.getElementById('portfolio');
     porfolio.style.display = 'block';
 })
+
